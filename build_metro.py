@@ -9,3 +9,5 @@ def build_metro(metro_dict):
             metro_to_build.add_station((metro_dict[line])[i])
             metro_to_build.add_connection(line, (metro_dict[line])[i-1], (metro_dict[line])[i])
     return metro_to_build
+
+wmata = build_metro(line_dict)
