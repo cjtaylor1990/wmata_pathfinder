@@ -1,0 +1,16 @@
+This program will take in two inputs,
+1.) Starting station
+2.) End station
+
+And returns
+1.) A printed set of directions which include,
+1.a.) Name of lines to take
+1.b.) To what what station do you ride said line
+1.c.) Do you switch lines, and to which lines and in what directions
+
+
+For each station, I need:
+1.) Name
+2.) Connected lines
+3.) Next station on connected lines
+
