@@ -1,5 +1,6 @@
 from metro_classes import Station, Metro
 from metro_lines import line_dict
+import pickle
 
 def build_metro(metro_dict):
     metro_to_build = Metro()
@@ -11,3 +12,4 @@ def build_metro(metro_dict):
     return metro_to_build
 
 wmata = build_metro(line_dict)
+pickle.dump(wmata, open("wmata.p", "wb"))
