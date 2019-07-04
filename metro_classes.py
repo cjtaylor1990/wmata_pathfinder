@@ -31,15 +31,3 @@ class Metro:
                 self.all_stations[station2].add_connection(line, station1)
         else:
             raise KeyError("The first and second station must be different!")
-
-"""
-wmata = Metro()
-wmata.add_station(red_line[0])
-for i in range(1,len(red_line)):
-    wmata.add_station(red_line[i])
-    wmata.add_connection('Red', red_line[i-1], red_line[i])
-    wmata.all_stations[red_line[i-1]].print_connections()
-
-print(type(wmata))
-wmata.add_station('Glenmont')
-"""
