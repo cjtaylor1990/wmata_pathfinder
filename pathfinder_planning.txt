@@ -14,3 +14,9 @@ For each station, I need:
 2.) Connected lines
 3.) Next station on connected lines
 
+Current status:
+1.) I have almost all of the basics.
+2.) The only issue is direction of lines and if I can possibly give those (i.e. do you go towards A or B for a given line C).
+3.) I also have a working BFT graph search working, but it isn't very optimal and likes to switch lines often when it seems odd to."
+4.) I wouldn't mind figuring out how to do a basic GUI for this.
+
