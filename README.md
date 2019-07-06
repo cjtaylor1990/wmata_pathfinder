@@ -6,7 +6,7 @@ the best one).
 
 This repository uses Python 3.6.5
 
-First, you must build the metro graph object which will be stored in a pickle (wmata.p).
+First, you must build the metro graph object which will be stored in a pickle (wmata.p):
 python build_metro.py
 
 After that, the program can be used:
