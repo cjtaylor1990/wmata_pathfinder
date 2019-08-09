@@ -1,25 +1,11 @@
-This program will take in two inputs,
-1.) Starting station
-2.) End station
-
-And returns
-1.) A printed set of directions which include,
-1.a.) Name of lines to take
-1.b.) To what what station do you ride said line
-1.c.) Do you switch lines, and to which lines and in what directions
-
-
-For each station, I need:
-1.) Name
-2.) Connected lines
-3.) Next station on connected lines
-
 Current status:
 1.) I have almost all of the basics.
 
-2.) The only issue is direction of lines and if I can possibly give those (i.e. do you go towards A or B for a given line C).
+2.) I have done a bit of optimization of the search algorithm, deciding to do a DFS rather than a BFS. This, combined with guaranteeing that the stations with the same line as the current line are put on the stack last (and thus pop first), biases the algorithm against switching lines, which is what you would want in a subway path searching tool.
 
-3.) I also have a working BFT graph search working, but it isn't very optimal and likes to switch lines often when it seems odd to. I will likely use a variation on a Dijkstra's algorithm where I designate switching lines a weight of 1 and staying on the same line as a weight of 0.
+Things to do:
 
-4.) I wouldn't mind figuring out how to do a basic GUI for this.
+1.) The only issue is direction of lines and if I can possibly give those (i.e. do you go towards A or B for a given line C). This is important given the fact that trains are labeled in their directions by their terminal destinations.
+
+2.) I wouldn't mind figuring out how to do a basic GUI for this.
 
