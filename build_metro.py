@@ -3,13 +3,15 @@ from metro_lines import line_dict
 import pickle
 
 def build_metro(metro_dict):
-	"""
+    """
 	This function builds the Metro object using the line information provided to it via a
 	dictionary. The keys of the dictionary have to be the name of the line and the values
 	are arrays of different station names along said line
 	"""
+    
 	#Initiating the Metro object
     metro_to_build = Metro()
+
     for line in metro_dict.keys(): #For each line key in the input dictionary
     	#Add the first station of the line to the Metro object
         metro_to_build.add_station((metro_dict[line])[0])

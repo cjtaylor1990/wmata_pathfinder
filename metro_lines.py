@@ -28,7 +28,7 @@ green_line = ['Greenbelt', 'College Park-U of Md',
 yellow_line = ['Greenbelt', 'College Park-U of Md',
 'Prince Georges Plaza','West Hyattsville', 'Fort Totten', 'Georgia Ave-Petworth',
 'Columbia', 'U St','Shaw-Howard U', 'Mt Vernon Sq', 'Gallery Place', 'Archives', 'LEnfant Plaza',
-'Pentagon City', 'Crystal City', 'Ronald Reagon Washington National Airport', 'Braddock Rd'
+'Pentagon City', 'Crystal City', 'Ronald Reagan Washington National Airport', 'Braddock Rd'
 'King St-Old Town']
 
 silver_line = ['Wiehle-Reston East', 'Spring Hill', 'Greensboro', 'Tyson Corner',
